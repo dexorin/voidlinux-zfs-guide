@@ -1,0 +1,1 @@
+export WEZ="https://github.com/wezterm/wezterm/releases/download/nightly/WezTerm-nightly-Ubuntu20.04.AppImage"
