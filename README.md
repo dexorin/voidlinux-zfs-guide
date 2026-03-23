@@ -139,8 +139,6 @@ zroot/data/logs     96K  76.5G    96K  /mnt/var/log
 zroot/home          96K  76.5G    96K  /mnt/home
 ```
 
-
-
 ### Update device symlinks
 
 ```bash
@@ -149,8 +147,9 @@ udevadm trigger
 
 ## Installing basic system
 
-> [!NOTE] Optional: Custom kernel selection
->
+> [!NOTE]
+> Optional step
+> 
 > By default, `base-system` pulls in the `linux` meta-package, which
 > currently points to the LTS kernel (6.12). If you prefer a different
 > kernel, you can avoid installing the wrong one from the start.
